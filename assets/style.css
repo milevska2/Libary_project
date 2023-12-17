@@ -1,0 +1,91 @@
+.card-img-top {
+  object-fit:fill;
+  height: 100%;
+}
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bg-warmyellow {
+  background-color: rgb(255, 239, 148) !important;
+}
+
+.text-warmyellow {
+  color: rgb(255, 239, 148) !important;
+}
+.text-warmred {
+  color: rgb(232, 66, 66) !important;
+}
+.bg-body {
+  background-color: #221f1f !important;
+}
+
+.accordion-button {
+  color: inherit;
+  background: rgb(255, 239, 148);
+  color: black;
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  color: inherit;
+  background: rgb(255, 239, 148);
+  color: black;
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(0%);
+}
+
+.accordion-button:focus {
+  box-shadow: inherit;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.pointerCursor {
+  cursor: pointer !important;
+}
+
+.pos-minus10 {
+  top: -10px!important;
+  right: -10px!important;
+}
+
+.pos-minus20 {
+  top: -10px!important;
+  right: 25px!important;
+}
+
+.perfCircle {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(101, 101, 101, 0.5), rgba(0, 0, 0, 0.5)), url("../images/books.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 70vh;
+}
